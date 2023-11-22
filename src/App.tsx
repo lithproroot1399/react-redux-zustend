@@ -1,7 +1,17 @@
+import { AddTodo } from "./components/AddTodo";
+import { TodoList } from "./components/TodoList";
+
 export function App() {
   
  return (
-    <h1>Hello World</h1>
+    <div>
+      <TodoListt />
+        <AddTodo />
+
+
+
+
+    </div>
   )
 }
 
