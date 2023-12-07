@@ -1,4 +1,5 @@
-import { ChevronDown, Video } from "lucide-react";
+import { ChevronDown } from "lucide-react";
+import { Lesson } from "./Lesson";
 
 export function Module() {
     return (
@@ -17,24 +18,11 @@ export function Module() {
             </button>
 
             <nav className='relative flex flex-col gap-4 p-6'>
-            <button className='flex items-center gap-3 text-sm text-zinc-400'>
-                                <Video className='w-4 h-4 text-zinc-500' />
-                <span>Fundamentos do Redux</span>
-                <span className='ml-auto font-mono text-xs text-zinc-500'>09:13</span>
-            </button>
+                <Lesson />
+                <Lesson />
+                <Lesson />
 
-            <button className='flex items-center gap-3 text-sm text-zinc-400'>
-                <Video className='w-4 h-4 text-zinc-500' />
-                <span>Fundamentos do Redux</span>
-                <span className='ml-auto font-mono text-xs text-zinc-500'>09:13</span>
-            </button>
-
-            <button className='flex items-center gap-3 text-sm text-zinc-400'>
-                <Video className='w-4 h-4 text-zinc-500' />
-                <span>Fundamentos do Redux</span>
-                <span className='ml-auto font-mono text-xs text-zinc-500'>09:13</span>
-            </button>
-         </nav>
+            </nav>
         </div>
                     
     )

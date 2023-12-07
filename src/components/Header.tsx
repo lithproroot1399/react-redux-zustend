@@ -1,8 +1,8 @@
 export function Header() {
     return (
         <div className="flex flex-col gap-1">
-                    <h1 className="text-2xl font-bold">Fundamentos do Ridux</h1>
-                    <span className="text-sm text-zinc-400">Modulo "Desvendando o Redux"</span>
-                </div>
+            <h1 className="text-2xl font-bold">Fundamentos do Ridux</h1>
+            <span className="text-sm text-zinc-400">Modulo "Desvendando o Redux"</span>
+        </div>
     )
 }
